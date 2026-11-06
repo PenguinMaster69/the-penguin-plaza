@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: 2px;
+}
+
+#TitleBar {
+   border: 0.5rem solid black; 
+   height: 10%; 
+   border-bottom: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: lightblue;
+}
+
+#Title {
+    font-size:3rem;
+    font-family: Trebuchet MS;
+    width: 100%;
+    text-align: center;
+}
+
+#NavigationBar {
+    border: 0.5rem solid black;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#MainContainer {
+    border: 0.5rem solid black;
+    height: 80%;
+    border-top: none;
+}
+
+.NavBtn {
+    font-size: 2rem;
+    font-family: Trebuchet MS;
+    color: black;
+    background-color: mintcream;
+    text-decoration: none;
+    border: 0.2rem solid black;
+    text-align: center;
+    align-content: center;
+}
+
+.NavBtn:hover {
+    text-decoration: underline;
+    color: darkslategray;
+    background-color: lightcyan;
+    cursor: pointer;
+}

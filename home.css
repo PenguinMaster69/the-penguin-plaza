@@ -1,0 +1,18 @@
+#MainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 80%;
+}
+
+#Text {
+    font-size: 2rem;
+    font-family: Trebuchet MS;
+}
+
+#Image {
+    border: 0.3rem solid black;
+    margin-bottom: 5%;
+}
